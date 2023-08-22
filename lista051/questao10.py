@@ -9,3 +9,15 @@ exibição na tela:
 3 elevado à 15 = 14348907
 OBS: Tente fazer em uma classe utilizando Math.pow() e em outra classe sem utilizar Math.pow()
 '''
+import math
+
+cont = 0
+while cont <= 15:
+    result = 3 ** cont
+    print(f"3 elevado à {cont} = {result}")
+    cont = cont + 1
+
+cont1 = 0
+while cont1 <= 15:
+    print(f"3 elevado à {cont1} = {math.pow(3,cont1):.0f}")
+    cont1 = cont1 + 1

@@ -4,3 +4,9 @@ Desenvolver um programa que apresente todos os valores numéricos inteiros ímpa
 mostre-o; não sendo, passe para o próximo passo.
 '''
 
+cont = 0
+
+while cont <= 20:
+    if cont % 2 == 1:
+        print(f"{cont} é ímpar.")
+    cont = cont + 1
